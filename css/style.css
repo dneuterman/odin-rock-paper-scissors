@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results {
+    margin: 30px;
+    padding: 10px 20px;
+    border: 5px solid blue;
+}
+
+.selections > button {
+    padding: 10px 20px;
+}
